@@ -1,0 +1,85 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 300px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+.input-group input {
+    width: 30%;
+    margin: 0 auto; /* Center the input horizontally */
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .address-group label {
+    font-weight: bold;
+    margin: 0 auto; /* Center the label horizontally */
+    text-align: center; /* Center the text within the label */
+  }
+  
+  .address-group input {
+    width: 30%;
+    margin-right: 4%;
+    margin: 0 auto; /* Center the input horizontally */
+  }
+  
+  .password-fields {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .password-fields input {
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .password-strength {
+    color: red;
+    font-size: 14px;
+    margin-top: 0px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 auto; /* Center the button horizontally */
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

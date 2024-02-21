@@ -1,0 +1,70 @@
+/* userProfileStyles.css */
+.profile-photo {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 50%; /* Makes the image round */
+    display: block; /* Ensure the image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  
+  .profile-photo-container {
+    margin-top: 10px; /* Adjust margin top as needed */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center the content horizontally */
+  }
+/* Style for the table rows */
+.profile-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Background color for even rows */
+    
+}
+
+.profile-table tr:nth-child(odd) {
+    background-color: #ffffff; /* Background color for odd rows */
+}
+.profile-table {
+    width: 40%; /* Set the width of the table */
+    margin: 0 auto; /* Center the table horizontally */
+    background-color: lightgray; /* Add background color */
+}
+.profile-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-buttons button {
+    margin: 5px; /* Adjust margin as needed */
+    padding: 5px 10px; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size as needed */
+  }
+ 
+/* userprofile.css */
+/* userprofile.css */
+/* userprofile.css */
+/* userprofile.css */
+
+.editbutton {
+    display: flex;
+    justify-content: center; /* Horizontally center the buttons */
+    margin-top: 20px; /* Add some margin at the top */
+}
+  
+.editbutton .edit button,
+.editbutton button.delete {
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    background-color: blue; /* Change the background color of the Edit button */
+    color: white; /* Change the text color of the buttons */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Vertically center the text */
+}
+
+.editbutton button.delete {
+    background-color: red; /* Change the background color of the Delete button */
+    margin-left: 10px; /* Adjust margin to make buttons closer */
+}
+
+.editbutton button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
